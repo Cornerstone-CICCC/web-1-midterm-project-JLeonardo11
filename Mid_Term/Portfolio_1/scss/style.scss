@@ -1,0 +1,9 @@
+@import './Partials/variables';
+@import './Partials/header';
+@import './Partials/body';
+@import './Partials/Main';
+@import'./Partials/footer';
+
+html{
+    scroll-behavior: smooth;
+}

@@ -1,0 +1,24 @@
+@import 'variables.scss';
+@keyframes spin {
+    from {
+      transform: rotate(0deg);
+    }
+    50%{scale: 1.5
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+
+  @keyframes Highlight {
+
+    0%{
+        
+    }
+    50%{
+        scale: 1.2
+    }
+    100%{
+        
+    }
+  }

@@ -1,0 +1,309 @@
+@import'./variables.scss';
+@import'./mixins.scss';
+
+    .Home_screen{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 10rem;
+        padding-top: 113px;
+        animation-duration: 3s;
+    animation-name: Highlight ;
+    animation-timing-function: 7s ease-in-out;
+    animation-iteration-count: infinite;
+
+
+}
+
+    
+
+
+    .Home_screen img{
+        border-radius: 30%;
+        margin-left: 178px;
+        margin-top: 26px;
+        width: 445px;
+        height: 435px;
+        object-fit: cover;
+        object-position: 0px -80px;
+        box-shadow: -21px 24px 106px #3e0080;
+        
+
+
+        
+        
+    }
+         h1 {
+        color: black;
+        width: 410px;
+        background-color: rgba(243, 129, 129, 0.3607843137);
+        height: 344px;
+        font-size: 100px;
+        text-align: center;
+        border: 2px solid rgb(12, 11, 11);
+        box-shadow: 21px 24px 106px #3e0080;
+        margin-top: 60px;
+        
+
+    }
+
+
+    section h1 {
+        display: flex;
+        padding-left: 0px;
+        color: black;
+        width: auto;
+        background-color: #00ffff00;
+        border: 0px;
+        box-shadow: 0px 0px;
+        height: 200px;
+        font-size: 80px;
+        text-align:start;
+        flex-direction: column;
+        align-items: center;
+        text-shadow: $text-shadow;
+
+
+    }
+
+About {
+    icons{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        justify-items: center;
+
+        
+        img {
+            width: 400px;
+            height: 300px;
+            padding-left: 0px;
+            cursor: pointer;
+            animation-duration: 3s;
+            animation-name: Highlight ;
+            animation-timing-function: ease;
+            animation-iteration-count: infinite;
+
+            
+        }
+    }
+           
+    ul{
+        text-align: center;
+    }
+    h3{
+        text-align: center;
+        text-shadow: $text-shadow;
+    }
+    section{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+h2 {
+    text-align: center;
+    margin-top: 80px;
+    font-size: 30px;
+    text-shadow: $text-shadow;
+    animation-duration: 3s;
+    animation-name: Highlight ;
+    animation-timing-function: ease;
+    animation-iteration-count: infinite;
+}
+projects{
+    display: flex;
+    justify-content: center;
+    
+
+   
+}
+#Project1 img {
+    width: 400px;
+    height: 300px;
+    box-shadow: 15px 10px 15px rgb(100, 157, 160);
+    
+
+}
+
+
+    
+
+
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .Contact_me {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    
+  }
+  
+  .Contact_me label {
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #555;
+  }
+  
+  .Contact_me input,
+  .Contact_me textarea {
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 50px;
+    font-size: 16px;
+  }
+
+  
+  .Contact_me{
+     textarea:hover {
+        box-shadow: 10px 10px 10px lightcoral;
+    }
+    input:hover {
+        box-shadow: 10px 10px 10px lightcoral; 
+    }
+    .contact-form{
+        display: flex;
+        align-items: flex-start;
+        justify-content: flex-start;
+        flex-direction: column;
+        height: 71vh;
+        padding-left: 104px;
+        gap: 10px;
+    }
+
+
+  }
+  
+  .Contact_me button {
+    padding: 12px;
+    border: none;
+    background-color: #007bff;
+    color: #fff;
+    font-size: 18px;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 1.3s;
+  }
+  
+  .Contact_me button:hover {
+    background-color: #0056b3;
+  }
+
+    main_contact{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    animation-duration: 3s;
+    animation-name: spin;
+    animation-timing-function: ease;
+    animation-iteration-count: infinite;
+    
+
+        a{
+            background-color: white;
+            padding: 1em;
+            border-radius: 50%;
+            height: 300px;
+            width: 300px;
+            box-sizing: border-box;
+            flex-shrink: 0;
+            place-items: center;
+            box-shadow: 0 5px 10px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            
+        
+        
+    }
+    a:hover { background-color: white;
+            padding: 1em;
+            border-radius: 50%;
+            height: 300px;
+            width: 300px;
+            box-sizing: border-box;
+            flex-shrink: 0;
+            place-items: center;
+            box-shadow: 0 5px 10px red ;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+    }
+
+     
+    
+    
+        a svg {
+            fill: $bg-color;
+            height: 238px;
+            
+        }
+        a svg :hover {
+            fill: red;
+            height: 238px;
+            
+        }
+  }
+  
+    .Social_media {
+        display: flex;
+        gap: 28px;
+        flex-direction: column;
+        align-items: center;
+
+        
+        a {
+            display: flex;
+            background-color: white;
+            padding: 1em;
+            border-radius: 50%;
+            height: 87px;
+            width: 87px;
+            box-sizing: border-box;
+            flex-shrink: 0;
+            place-items: center;
+            box-shadow: 0 5px 10px;
+            align-items: center;
+            justify-content: center;
+
+            }
+         
+        a :hover{
+            display: flex;
+            padding: 1em;
+            border-radius: 31%;
+            height: 87px;
+            width: 85px;
+            box-sizing: border-box;
+            flex-shrink: 0;
+            place-items: center;
+            box-shadow: 0px 41px 95px lightcoral;
+            align-items: center;
+            justify-content: center;
+            animation-duration: 3s;
+            animation-name: spin;
+            animation-timing-function: ease;
+            animation-iteration-count: 3;
+        
+        }   
+
+    
+      a svg {
+        height: 75px;
+        fill: $bg-color;
+
+        
+        
+           
+      }
+      
+
+      
+    }
+    
+    
+
